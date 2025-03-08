@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Hamburguesa Loreto",
+    "description": "Hamburguesa con queso fontina, cebolla a la plancha y huevo a la plancha con papas fritas",
+    "price": 15900.0,
+    "options": [
+      {
+        "name": "Simple",
+        "price": 0.0
+      },
+      {
+        "name": "Medall\u00f3n veggie simple",
+        "price": 0.0
+      },
+      {
+        "name": "Doble",
+        "price": 6300.0
+      },
+      {
+        "name": "Triple",
+        "price": 11400.0
+      },
+      {
+        "name": "Medall\u00f3n veggie doble",
+        "price": 4200.0
+      },
+      {
+        "name": "Coca-cola sin azucar 500ml.",
+        "price": 3400.0
+      },
+      {
+        "name": "Chocotorta",
+        "price": 9000.0
+      },
+      {
+        "name": "Muzzarelitas",
+        "price": 15500.0
+      },
+      {
+        "name": "Coca-cola sabor original 500ml",
+        "price": 3400.0
+      },
+      {
+        "name": "Sin huevo",
+        "price": 0.0
+      },
+      {
+        "name": "Sin cebolla a la plancha",
+        "price": 0.0
+      },
+      {
+        "name": "Sin fontina",
+        "price": 0.0
+      },
+      {
+        "name": "Extra queso en hamburguesa",
+        "price": 1800.0
+      },
+      {
+        "name": "Panceta en papas",
+        "price": 3200.0
+      },
+      {
+        "name": "Extra panceta en hamburguesa",
+        "price": 3100.0
+      },
+      {
+        "name": "Extra huevo",
+        "price": 1200.0
+      },
+      {
+        "name": "Cheddar en papas",
+        "price": 3100.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/tmpImg9cd7ef89-e1ea-4544-81fb-9199e62bd65d.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/189247-arredondo"
+  }
+]
