@@ -96,5 +96,5 @@ def scrape_product(url):
 
 
 if __name__ == "__main__":
-    url = "https://www.rappi.com.ar/restaurantes/189247-arredondo?productDetail=2112146579"
+    url = "https://www.rappi.com.ar/restaurantes/189247-arredondo?productDetail=2112146587"
     scrape_product(url)
