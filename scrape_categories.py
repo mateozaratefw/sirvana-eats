@@ -33,7 +33,6 @@ def parse_checkmark(value_str):
     return "✓" in value_str
 
 
-# Paste your entire cookie table lines below (each row exactly one line).
 COOKIE_TABLE = """AEC	AVcja2eAboA6_-EMuX_qqINtwMDFI6sp9q9E7SH6QTg4KOMhF06Ec0mxcVQ	.google.com	/	2025-08-28T22:59:56.694Z	62	✓	✓	Lax			Medium	
 AF_SYNC	1741365704323	.rappi.com.ar	/	2025-03-14T16:41:44.000Z	20						Medium	
 AMP_101be7b7fd	JTdCJTIyZGV2aWNlSWQlMjIlM0ElMjI3Mjg1MzE2ZC1iZWQwLTQyYjctYTY0My01NTJjNTBlZmQ5MDAlMjIlMkMlMjJ1c2VySWQlMjIlM0ElMjJBUl80OTg3NDYyMTQlMjIlMkMlMjJzZXNzaW9uSWQlMjIlM0ExNzQxNDUyMjM5NjU0JTJDJTIyb3B0T3V0JTIyJTNBZmFsc2UlMkMlMjJsYXN0RXZlbnRUaW1lJTIyJTNBMTc0MTQ1Mzc2MjI2OSUyQyUyMmxhc3RFdmVudElkJTIyJTNBNzUlMkMlMjJwYWdlQ291bnRlciUyMiUzQTAlN0Q=	.rappi.com.ar	/	2026-03-08T17:09:22.000Z	342			Lax			Medium	
@@ -209,7 +208,15 @@ def main():
         page = context.new_page()
         page.goto("https://www.rappi.com.ar/restaurantes")
 
-        print("Cookies added. Browser context is ready.")
+        # Wait for the page to load and the categories to be visible
+        page.wait_for_load_state("networkidle")
+
+        # Wait for and click the Pizza category button
+        pizza_button = page.locator('button[data-qa="category-item"]:has-text("Pizza")')
+        pizza_button.wait_for(state="visible")
+        pizza_button.click()
+
+        print("Clicked on Pizza category.")
         input("Press Enter to close...")
 
         browser.close()
