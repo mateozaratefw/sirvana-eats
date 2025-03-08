@@ -1,5 +1,6 @@
 from playwright.sync_api import sync_playwright
 import datetime
+import json
 
 
 def parse_expires(expires_str):
@@ -199,6 +200,8 @@ def main():
 
     print(f"Parsed {len(cookies)} cookies.")
 
+    processed_urls = set()
+
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
         context = browser.new_context()
@@ -206,38 +209,74 @@ def main():
         context.add_cookies(cookies)
 
         page = context.new_page()
-        page.goto("https://www.rappi.com.ar/restaurantes")
+        page.goto("https://www.rappi.com.ar/buenos-aires/restaurantes")
 
-        # Wait for the page to load and the categories to be visible
         page.wait_for_load_state("networkidle")
 
-        # Get all category buttons
-        category_buttons = page.locator('button[data-qa="category-item"]')
-        count = category_buttons.count()
-        print(f"Found {count} category buttons")
+        with open("restaurants.json", "w", encoding="utf-8") as f:
+            # Write the opening bracket
+            f.write("[\n")
+            first_item = True
 
-        for i in range(count):
-            button = category_buttons.nth(i)
-            button.wait_for(state="visible")
-            category_name = button.text_content()
-            print(f"\nClicking category: {category_name}")
+            while True:
+                restaurants = page.locator('a[data-qa^="store-item-restaurant"]')
+                current_count = restaurants.count()
 
-            button.click()
+                for j in range(current_count):
+                    restaurant = restaurants.nth(j)
+                    link = restaurant.get_attribute("href")
 
-            page.wait_for_load_state("networkidle")
+                    if link in processed_urls:
+                        continue
 
-            restaurants = page.locator('a[data-qa^="store-item-restaurant"]')
-            for j in range(restaurants.count()):
-                restaurant = restaurants.nth(j)
-                name = restaurant.locator("h3").text_content()
+                    processed_urls.add(link)
 
-                link = restaurant.get_attribute("href")
+                    name = restaurant.locator("h3").text_content()
+                    delivery_time = restaurant.locator(
+                        'span[class*="jeSkjq"]'
+                    ).first.text_content()
+                    delivery_price = restaurant.locator(
+                        'span[data-testid="store-delivery-cost"]'
+                    ).text_content()
 
-                print(f"\nRestaurant: {name}")
-                print(f"Link: {link}")
+                    restaurant_info = {
+                        "name": name,
+                        "delivery_time": delivery_time,
+                        "delivery_price": delivery_price,
+                        "url": "https://www.rappi.com.ar" + link,
+                    }
 
-        print("\nFinished processing all categories.")
-        input("Press Enter to close...")
+                    if not first_item:
+                        f.write(",\n")
+                    json.dump(restaurant_info, f, ensure_ascii=False, indent=2)
+                    f.flush()
+                    first_item = False
+
+                print(f"\nProcesados hasta ahora: {len(processed_urls)} restaurantes")
+
+                try:
+                    load_more_button = page.locator(
+                        'button[data-testid="button"] span:has-text("Ver más restaurantes")'
+                    )
+
+                    if not load_more_button.is_visible():
+                        break
+
+                    load_more_button.click()
+                    page.wait_for_load_state("networkidle")
+
+                except Exception as e:
+                    print("Error al cargar más restaurantes:", e)
+                    break
+
+            # Write the closing bracket
+            f.write("\n]")
+
+        print(
+            "\nProceso finalizado. Total de restaurantes únicos:", len(processed_urls)
+        )
+        print("Datos guardados en restaurants.json")
+        input("Presiona Enter para cerrar...")
 
         browser.close()
 
