@@ -211,12 +211,32 @@ def main():
         # Wait for the page to load and the categories to be visible
         page.wait_for_load_state("networkidle")
 
-        # Wait for and click the Pizza category button
-        pizza_button = page.locator('button[data-qa="category-item"]:has-text("Pizza")')
-        pizza_button.wait_for(state="visible")
-        pizza_button.click()
+        # Get all category buttons
+        category_buttons = page.locator('button[data-qa="category-item"]')
+        count = category_buttons.count()
+        print(f"Found {count} category buttons")
 
-        print("Clicked on Pizza category.")
+        for i in range(count):
+            button = category_buttons.nth(i)
+            button.wait_for(state="visible")
+            category_name = button.text_content()
+            print(f"\nClicking category: {category_name}")
+
+            button.click()
+
+            page.wait_for_load_state("networkidle")
+
+            restaurants = page.locator('a[data-qa^="store-item-restaurant"]')
+            for j in range(restaurants.count()):
+                restaurant = restaurants.nth(j)
+                name = restaurant.locator("h3").text_content()
+
+                link = restaurant.get_attribute("href")
+
+                print(f"\nRestaurant: {name}")
+                print(f"Link: {link}")
+
+        print("\nFinished processing all categories.")
         input("Press Enter to close...")
 
         browser.close()
