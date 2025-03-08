@@ -1,79 +1,2157 @@
 [
   {
-    "name": "Hamburguesa Loreto",
-    "description": "Hamburguesa con queso fontina, cebolla a la plancha y huevo a la plancha con papas fritas",
-    "price": 15900.0,
+    "name": "Pastel Parmentier",
+    "description": "Pastel de ragu de carne y pur\u00e9 de papas.",
+    "price": 11000.0,
     "options": [
       {
-        "name": "Simple",
+        "name": "Papas Rotas Fritas",
+        "price": 6500.0
+      },
+      {
+        "name": "Zanahorias Asadas",
+        "price": 6000.0
+      },
+      {
+        "name": "Pur\u00e9 de Papas",
+        "price": 5000.0
+      },
+      {
+        "name": "Tortilla de Papa",
+        "price": 9000.0
+      },
+      {
+        "name": "Chaucha Teriyaki",
+        "price": 6500.0
+      },
+      {
+        "name": "Berenjenas Escabeche",
+        "price": 6000.0
+      },
+      {
+        "name": "Pur\u00e9 de Calabaza Asada",
+        "price": 5000.0
+      },
+      {
+        "name": "Flan",
+        "price": 5500.0
+      },
+      {
+        "name": "Torta Vasca",
+        "price": 6500.0
+      },
+      {
+        "name": "Flan Parisino",
+        "price": 6500.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/2113256618-1732732501777.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/231497-mon-poulet"
+  },
+  {
+    "name": "Tarta de Acelga",
+    "description": "Tarta de acelga acompa\u00f1ado con mix de hojas verdes.",
+    "price": 9500.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/2113260670-1732731332042.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/231497-mon-poulet"
+  },
+  {
+    "name": "Dos Figacitas de Pollo Asado",
+    "description": "S\u00e1ndwich de pollo asado con salsa yogurnesa, tomate y lechuga capuchina.",
+    "price": 6500.0,
+    "options": [
+      {
+        "name": "Papas Rotas Fritas",
+        "price": 6500.0
+      },
+      {
+        "name": "Zanahorias Asadas",
+        "price": 6000.0
+      },
+      {
+        "name": "Pur\u00e9 de Papas",
+        "price": 5000.0
+      },
+      {
+        "name": "Tortilla de Papa",
+        "price": 9000.0
+      },
+      {
+        "name": "Chaucha Teriyaki",
+        "price": 6500.0
+      },
+      {
+        "name": "Berenjenas Escabeche",
+        "price": 6000.0
+      },
+      {
+        "name": "Pur\u00e9 de Calabaza Asada",
+        "price": 5000.0
+      },
+      {
+        "name": "Flan",
+        "price": 5500.0
+      },
+      {
+        "name": "Torta Vasca",
+        "price": 6500.0
+      },
+      {
+        "name": "Flan Parisino",
+        "price": 6500.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/2113256633-1732719327969.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/231497-mon-poulet"
+  },
+  {
+    "name": "Dos Figacitas de Jam\u00f3n Cocido y Queso",
+    "description": "S\u00e1ndwich de jam\u00f3n cocido, queso, manteca y pepinillos.",
+    "price": 6500.0,
+    "options": [
+      {
+        "name": "Papas Rotas Fritas",
+        "price": 6500.0
+      },
+      {
+        "name": "Zanahorias Asadas",
+        "price": 6000.0
+      },
+      {
+        "name": "Pur\u00e9 de Papas",
+        "price": 5000.0
+      },
+      {
+        "name": "Tortilla de Papa",
+        "price": 9000.0
+      },
+      {
+        "name": "Chaucha Teriyaki",
+        "price": 6500.0
+      },
+      {
+        "name": "Berenjenas Escabeche",
+        "price": 6000.0
+      },
+      {
+        "name": "Pur\u00e9 de Calabaza Asada",
+        "price": 5000.0
+      },
+      {
+        "name": "Flan",
+        "price": 5500.0
+      },
+      {
+        "name": "Torta Vasca",
+        "price": 6500.0
+      },
+      {
+        "name": "Flan Parisino",
+        "price": 6500.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/2113256634-1732657012382.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/231497-mon-poulet"
+  },
+  {
+    "name": "S\u00e1ndwich Milanesa de Pollo",
+    "description": "S\u00e1ndwich de milanesa de pollo con salsa de alioli, lechuga capuchina y tomate.",
+    "price": 14500.0,
+    "options": [
+      {
+        "name": "Papas Rotas Fritas",
+        "price": 6500.0
+      },
+      {
+        "name": "Zanahorias Asadas",
+        "price": 6000.0
+      },
+      {
+        "name": "Pur\u00e9 de Papas",
+        "price": 5000.0
+      },
+      {
+        "name": "Tortilla de Papa",
+        "price": 9000.0
+      },
+      {
+        "name": "Chaucha Teriyaki",
+        "price": 6500.0
+      },
+      {
+        "name": "Berenjenas Escabeche",
+        "price": 6000.0
+      },
+      {
+        "name": "Pur\u00e9 de Calabaza Asada",
+        "price": 5000.0
+      },
+      {
+        "name": "Flan",
+        "price": 5500.0
+      },
+      {
+        "name": "Torta Vasca",
+        "price": 6500.0
+      },
+      {
+        "name": "Flan Parisino",
+        "price": 6500.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/2113256640-1732719327965.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/231497-mon-poulet"
+  },
+  {
+    "name": "S\u00e1ndwich de Lengua Tipo Pastrami",
+    "description": "S\u00e1ndwich de lengua tipo pastrami con queso fontina, pickle de pepino y mostaza dijon.",
+    "price": 10500.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/2113256641-1732657012380.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/231497-mon-poulet"
+  },
+  {
+    "name": "S\u00e1ndwich de Jam\u00f3n Crudo",
+    "description": "S\u00e1ndwich de jam\u00f3n crudo con manteca, r\u00facula, queso reggianito, tomate y aceite de oliva.",
+    "price": 15000.0,
+    "options": [
+      {
+        "name": "Papas Rotas Fritas",
+        "price": 6500.0
+      },
+      {
+        "name": "Zanahorias Asadas",
+        "price": 6000.0
+      },
+      {
+        "name": "Pur\u00e9 de Papas",
+        "price": 5000.0
+      },
+      {
+        "name": "Tortilla de Papa",
+        "price": 9000.0
+      },
+      {
+        "name": "Chaucha Teriyaki",
+        "price": 6500.0
+      },
+      {
+        "name": "Berenjenas Escabeche",
+        "price": 6000.0
+      },
+      {
+        "name": "Pur\u00e9 de Calabaza Asada",
+        "price": 5000.0
+      },
+      {
+        "name": "Flan",
+        "price": 5500.0
+      },
+      {
+        "name": "Torta Vasca",
+        "price": 6500.0
+      },
+      {
+        "name": "Flan Parisino",
+        "price": 6500.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/2113256643-1732657012384.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/231497-mon-poulet"
+  },
+  {
+    "name": "S\u00e1ndwich Vegetariano",
+    "description": "S\u00e1ndwich con berenjenas escabeche, queso azul, hongos, cebolla caramelizada y nuez.",
+    "price": 11000.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/2113256642-1732719327965.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/231497-mon-poulet"
+  },
+  {
+    "name": "Torta Vasca",
+    "description": "Torta vasca a base de queso crema, preparaci\u00f3n de la casa, porci\u00f3n personal.",
+    "price": 6500.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/2113256645-1733322705877.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/231497-mon-poulet"
+  },
+  {
+    "name": "Flan Parisino",
+    "description": "Flan en base de hojaldre y crema pastelera, porci\u00f3n personal.",
+    "price": 6500.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/2113256646-1732657012378.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/231497-mon-poulet"
+  },
+  {
+    "name": "Flan",
+    "description": "Flan casero , porci\u00f3n personal.",
+    "price": 5500.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/2113256647-1732657012376.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/231497-mon-poulet"
+  },
+  {
+    "name": "Agua Sin Gas",
+    "description": "Botella de 500 cc",
+    "price": 3000.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/2113299522-1735225309106.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/231497-mon-poulet"
+  },
+  {
+    "name": "Agua con Gas",
+    "description": "Botella de 500 cc",
+    "price": 3000.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/2113299523-1735225309106.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/231497-mon-poulet"
+  },
+  {
+    "name": "Cerveza Stella Artois Blanche",
+    "description": "Lata de 473 cc",
+    "price": 4700.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/2113299524-1735225309108.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/231497-mon-poulet"
+  },
+  {
+    "name": "Vino Animal Organico Malbec",
+    "description": "Botella de 750 cc, ernesto catena",
+    "price": 16500.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/2113299525-1735225309117.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/231497-mon-poulet"
+  },
+  {
+    "name": "Vino Animal Organico Chardonnay",
+    "description": "Botella de 750. ernesto catena",
+    "price": 16500.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/2113299526-1735225309127.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/231497-mon-poulet"
+  },
+  {
+    "name": "Vino Animal Organico Rosado",
+    "description": "Botella de 750 cc ernesto catena",
+    "price": 16500.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/2113299527-1735225309126.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/231497-mon-poulet"
+  },
+  {
+    "name": "Pepsi Regular 500cc",
+    "description": "Pet gaseosa regular",
+    "price": 3000.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/2113299528-1735225309110.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/231497-mon-poulet"
+  },
+  {
+    "name": "Pepsi Black 500cc",
+    "description": "Pet diet",
+    "price": 3000.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/fa40a8c1-f108-4473-ae6e-c5f3e90e0cd8-1735245980032.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/231497-mon-poulet"
+  },
+  {
+    "name": "Seven Up Regular 500cc",
+    "description": "Pet regular lima limon",
+    "price": 3000.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/2113299530-1735225309121.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/231497-mon-poulet"
+  },
+  {
+    "name": "Seven Free 500cc",
+    "description": "Pet free lima limon",
+    "price": 3000.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/2113299531-1735225309110.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/231497-mon-poulet"
+  },
+  {
+    "name": "Combo Scon de Lim\u00f3n & Latte Chico",
+    "description": "Scon de lim\u00f3n con un latte chico.",
+    "price": 8500.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/1088369-1586277007831.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Fresh S\u00e1ndwich",
+    "description": "S\u00e1ndwich de jam\u00f3n natural, queso, huevo frito, r\u00facula, aderezo de alioli en pan multicereal",
+    "price": 14200.0,
+    "options": [
+      {
+        "name": "Sin jam\u00f3n",
         "price": 0.0
       },
       {
-        "name": "Medall\u00f3n veggie simple",
+        "name": "Sin queso",
+        "price": 0.0
+      },
+      {
+        "name": "Sin huevo frito",
+        "price": 0.0
+      },
+      {
+        "name": "Sin r\u00facula",
+        "price": 0.0
+      },
+      {
+        "name": "Sin alioli",
+        "price": 0.0
+      },
+      {
+        "name": "Caf\u00e9 grande",
+        "price": 5700.0
+      },
+      {
+        "name": "Latte grande",
+        "price": 5700.0
+      },
+      {
+        "name": "Flat grande",
+        "price": 6800.0
+      },
+      {
+        "name": "Latte chico",
+        "price": 4800.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/1081656-1592403657890.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Combo Tostado de J&Q",
+    "description": "Tostado de jam\u00f3n, queso, 2 lattes chicos",
+    "price": 20600.0,
+    "options": [
+      {
+        "name": "Caramelo",
+        "price": 1300.0
+      },
+      {
+        "name": "Avellana",
+        "price": 1300.0
+      },
+      {
+        "name": "Chocolate",
+        "price": 1300.0
+      },
+      {
+        "name": "Dulce de leche",
+        "price": 1300.0
+      },
+      {
+        "name": "Vainilla",
+        "price": 1300.0
+      },
+      {
+        "name": "Leche de almendras",
+        "price": 1450.0
+      },
+      {
+        "name": "Sin jam\u00f3n",
+        "price": 0.0
+      },
+      {
+        "name": "Sin queso",
+        "price": 0.0
+      },
+      {
+        "name": "Caf\u00e9 grande",
+        "price": 5700.0
+      },
+      {
+        "name": "Latte grande",
+        "price": 5700.0
+      },
+      {
+        "name": "Flat grande",
+        "price": 6800.0
+      },
+      {
+        "name": "Latte chico",
+        "price": 4800.0
+      },
+      {
+        "name": "Caramelo",
+        "price": 50.0
+      },
+      {
+        "name": "Avellana",
+        "price": 50.0
+      },
+      {
+        "name": "Chocolate",
+        "price": 50.0
+      },
+      {
+        "name": "Dulce de leche",
+        "price": 50.0
+      },
+      {
+        "name": "Vainilla",
+        "price": 50.0
+      },
+      {
+        "name": "Leche de almendras",
+        "price": 70.0
+      },
+      {
+        "name": "Feliz d\u00eda",
+        "price": 0.0
+      },
+      {
+        "name": "Felicidades",
+        "price": 0.0
+      },
+      {
+        "name": "Feliz cumplea\u00f1os",
+        "price": 0.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/1088370-1586277016567.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Combo Alfajor de Maicena + Exprimido",
+    "description": "Alfajor de maicena con jugo exprimido de naranja chico",
+    "price": 10000.0,
+    "options": [
+      {
+        "name": "Feliz d\u00eda",
+        "price": 0.0
+      },
+      {
+        "name": "Felicidades",
+        "price": 0.0
+      },
+      {
+        "name": "Feliz cumplea\u00f1os",
+        "price": 0.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/854368a1-938f-4a28-a20c-479fcc35c026-1594246752457.jpeg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Tostado J&Q",
+    "description": "S\u00e1ndwich tostado de jam\u00f3n natural, queso entre rodajas de pan de viena artesanal",
+    "price": 12300.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/1123323-1592401891834.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Croque Monsieur",
+    "description": "S\u00e1ndwich de jam\u00f3n, queso, salsa bechamel gratinado al horno",
+    "price": 13200.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/1081655-1586276828074.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Bud\u00edn Vegano de Banana, Nuez y Coco",
+    "description": "Porci\u00f3n de bud\u00edn vegano de banana, nuez y coco.",
+    "price": 6000.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/4acbc874-93ef-466a-8b34-cff9dbe0f369-1632939205115.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Croque Madame",
+    "description": "S\u00e1ndwich de jam\u00f3n, queso, salsa bechamel gratinado al horno coronado con huevo frito",
+    "price": 14200.0,
+    "options": [
+      {
+        "name": "Sin jam\u00f3n",
+        "price": 0.0
+      },
+      {
+        "name": "Sin queso",
+        "price": 0.0
+      },
+      {
+        "name": "Sin huevo frito",
+        "price": 0.0
+      },
+      {
+        "name": "Caf\u00e9 grande",
+        "price": 5700.0
+      },
+      {
+        "name": "Latte grande",
+        "price": 5700.0
+      },
+      {
+        "name": "Flat grande",
+        "price": 6800.0
+      },
+      {
+        "name": "Latte chico",
+        "price": 4800.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/1081654-1586276825175.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Bud\u00edn de Lim\u00f3n y Ar\u00e1ndanos",
+    "description": "Porci\u00f3n de 200 gr de lim\u00f3n y ar\u00e1ndanos.",
+    "price": 6000.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/1088364-1586276972586.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Alfajores de Maicena",
+    "description": "Un alfajor de maicena con dulce de leche, coco.",
+    "price": 4500.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/1081621-1586276678468.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Alfajor de Chocolate y Frambuesa.",
+    "description": "",
+    "price": 5700.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/af026344-8de8-40e8-8f00-14cb0d9175ae-1697469560696.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Bagel NY",
+    "description": "Bagel relleno de huevos revueltos, cheddar, panceta",
+    "price": 14200.0,
+    "options": [
+      {
+        "name": "Sin cheddar",
+        "price": 0.0
+      },
+      {
+        "name": "Sin huevo revuelto",
+        "price": 0.0
+      },
+      {
+        "name": "Sin panceta",
+        "price": 0.0
+      },
+      {
+        "name": "Caf\u00e9 grande",
+        "price": 5700.0
+      },
+      {
+        "name": "Latte grande",
+        "price": 5700.0
+      },
+      {
+        "name": "Flat grande",
+        "price": 6800.0
+      },
+      {
+        "name": "Latte chico",
+        "price": 4800.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/1123311-1592402441767.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Alfajor de Chocolate Blanco y Pistachos",
+    "description": "",
+    "price": 5700.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/da13478d-fdfb-49e4-ad58-b39e54f7b632-1725306905746.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Cuadrado de Brownie & Nuez",
+    "description": "Cuadrado de brownie con nueces",
+    "price": 9600.0,
+    "options": [
+      {
+        "name": "Caf\u00e9 grande",
+        "price": 5700.0
+      },
+      {
+        "name": "Latte grande",
+        "price": 5700.0
+      },
+      {
+        "name": "Flat grande",
+        "price": 6800.0
+      },
+      {
+        "name": "Latte chico",
+        "price": 4800.0
+      },
+      {
+        "name": "Feliz d\u00eda",
+        "price": 0.0
+      },
+      {
+        "name": "Felicidades",
+        "price": 0.0
+      },
+      {
+        "name": "Feliz cumplea\u00f1os",
+        "price": 0.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/1081635-1586276697733.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Carrot Cake",
+    "description": "Porci\u00f3n de torta de zanahoria con frutos secos, frosting de queso dulce.",
+    "price": 13200.0,
+    "options": [
+      {
+        "name": "Caf\u00e9 grande",
+        "price": 5700.0
+      },
+      {
+        "name": "Latte grande",
+        "price": 5700.0
+      },
+      {
+        "name": "Flat grande",
+        "price": 6800.0
+      },
+      {
+        "name": "Latte chico",
+        "price": 4800.0
+      },
+      {
+        "name": "Feliz d\u00eda",
+        "price": 0.0
+      },
+      {
+        "name": "Felicidades",
+        "price": 0.0
+      },
+      {
+        "name": "Feliz cumplea\u00f1os",
+        "price": 0.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/49c03156-5898-4840-83a8-a380d2a48535-1669079745231.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Red Velvet",
+    "description": "",
+    "price": 13200.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/dbb48213-cd77-43e0-8c87-bf8e9d3f7f16-1725307172438.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Lemon Pie",
+    "description": "Porci\u00f3n de lemon pie",
+    "price": 9600.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/1081647-1586276755863.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Scon de Queso",
+    "description": "Un scon de queso.",
+    "price": 5500.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/1088362-1586276962470.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Scon de Lim\u00f3n",
+    "description": "Un scon de lim\u00f3n.",
+    "price": 5000.0,
+    "options": [
+      {
+        "name": "Caf\u00e9 grande",
+        "price": 5700.0
+      },
+      {
+        "name": "Latte grande",
+        "price": 5700.0
+      },
+      {
+        "name": "Flat grande",
+        "price": 6800.0
+      },
+      {
+        "name": "Latte chico",
+        "price": 4800.0
+      },
+      {
+        "name": "Feliz d\u00eda",
+        "price": 0.0
+      },
+      {
+        "name": "Felicidades",
+        "price": 0.0
+      },
+      {
+        "name": "Feliz cumplea\u00f1os",
+        "price": 0.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/1088363-1586276965676.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Frangipane de Manzana y Almendras.",
+    "description": "Tarta de pastelera de vainilla, almendras y manzana cocida. .",
+    "price": 11300.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/ea99b340-afb8-415f-91e9-45a8af4dddf3-1714420760417.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Flat Grande",
+    "description": "Caf\u00e9 grande doble shot con leche texturizada 354 ml",
+    "price": 6800.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/1081659-1586276913150.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Latte Chico",
+    "description": "Caf\u00e9 chico un shot con leche texturizada 236 ml",
+    "price": 4800.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/1081660-1586276934197.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Caf\u00e9 Chico",
+    "description": "Caf\u00e9 chico 236 ml",
+    "price": 4800.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/1081664-1586276945534.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Caf\u00e9 Grande",
+    "description": "Caf\u00e9 grande 354 ml",
+    "price": 5700.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/1081665-1586276948626.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Latte Grande",
+    "description": "Caf\u00e9 grande un shot con leche texturizada 354 ml",
+    "price": 5700.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/1081661-1586276937346.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Flat Chico",
+    "description": "Caf\u00e9 chico doble shot con leche texturizada 236 ml",
+    "price": 5800.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/1081658-1586276899859.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Yogurt Casero con Granola",
+    "description": "Yogurt casero con granola, frutos rojos, miel org\u00e1nica.",
+    "price": 12000.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/2b813cda-83b0-42a1-953d-cbbe421e8278-1621635409447.jpeg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Avocado con Queso Crema y Tomate",
+    "description": "rodaja de pan multicereal de masa madre, untada con queso crema, rodajas de palta, tomates cherry y mix de semillas tostadas.",
+    "price": 12000.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/0689117c-3d29-4a69-a6b2-52b34a8c001f-1621626432934.jpeg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Avocado con Huevo Frito",
+    "description": "Rodaja de pan multicereal de masa madre, untada con queso crema, rodajas de palta, tomates cherry, coronada con un huevo.",
+    "price": 13200.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/4bcdd97c-7374-4e9a-ac16-d93655f889b5-1621626846117.jpeg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Avocado de Hummus de Remolacha y Cherrys",
+    "description": "",
+    "price": 12000.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/ae4e4b9c-4555-4300-8f8a-cd329609a37c-1672173635713.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Raci\u00f3n de French Toast con Panceta",
+    "description": "Huevos revueltos y panceta, sobre dos tostadas fritas al estilo franc\u00e9s.",
+    "price": 24000.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/f8bb1861-74f0-411d-8154-b866437c9174-1621627001830.jpeg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/150709-usina-cafetera-pasteleria"
+  },
+  {
+    "name": "Docena de Facturas Surtidas",
+    "description": "12 facturas a elecci\u00f3n",
+    "price": 10350.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/1537842-1600956100493.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "S\u00e1ndwich Triple de J & Q",
+    "description": "S\u00e1ndwich triple de miga con jam\u00f3n y queso.",
+    "price": 1840.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/8922f4f4-7774-44fd-946b-eb9e1bf2a15b-1634736140430.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Docena de Medialunas",
+    "description": "12 Medialunas de manteca o grasa para compartir.",
+    "price": 10350.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/254998-1539195859.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "S\u00e1ndwich Triple de Jam\u00f3n & Huevo",
+    "description": "S\u00e1ndwich triple de miga con jam\u00f3n y huevo.",
+    "price": 2180.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255053-1543259513.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "1/2 Docena de Medialunas",
+    "description": "6 Medialunas de manteca o grasa a elecci\u00f3n.",
+    "price": 5170.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/254999-1539197553.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Mini Alfajores Maicena 1/4",
+    "description": "Alfajores de maicena por 250gr.",
+    "price": 5400.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/449881-1718199898909.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Palmeritas",
+    "description": "Palmeritas, 1/4 kg",
+    "price": 5400.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/bb80893e-ab56-4de1-85f7-6c3f151ab45a-1737466166000.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "1/4 Bizcochitos de Grasa",
+    "description": "Un cuarto de bizcochitos de grasa",
+    "price": 3680.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255009-1543259890.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Torta de Ricota Completa",
+    "description": "Torta con masa real rellena con ricota cubierta con masa real y az\u00facar impalpable. Vienen 8 porciones",
+    "price": 20120.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255082-1543260841.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Pan Franc\u00e9s Mi\u00f1\u00f3n 1/2 kg",
+    "description": "Medio kilo de pan franc\u00e9s mi\u00f1\u00f3n",
+    "price": 2700.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/1172722-1591736254363.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Torta de Frutillas Completa",
+    "description": "Torta frutillas con masa real rellena con pastelera decorada con frutillas. Vienen 8 porciones",
+    "price": 26450.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255093-1543260650.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Pepitos",
+    "description": "Un cuarto de pepitos de membrillo o de chocolate.",
+    "price": 5400.0,
+    "options": [
+      {
+        "name": "1/4 de membrillo",
+        "price": 0.0
+      },
+      {
+        "name": "1/4 de chocolate",
+        "price": 0.0
+      },
+      {
+        "name": "Mitad membrillo, mitad chocolate",
+        "price": 0.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/255118-1543260204.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Torta de Ricota",
+    "description": "Porci\u00f3n torta de ricota con masa real rellena y cubierta con masa real y az\u00facar impalpable.",
+    "price": 5170.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255106-1539197598.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Pan Dulce 1 kg Todas Las Frutas",
+    "description": "Pan dulce con frutas secas, abrillantadas, pasas, decorado con glac\u00e9 y frutas.",
+    "price": 26450.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/0d6e726c-5443-4a28-ba97-6e51befe4f13-1608649868142.jpeg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Pan Dulce 1 kg Frutas Secas",
+    "description": "Nuestro incre\u00edble pan dulce mangini con gran variedad de frutas secas",
+    "price": 28750.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/15fb726f-f217-4c7b-8de6-bdc891c28487-1737470309167.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "S\u00e1ndwich Triple de Jam\u00f3n & Anan\u00e1",
+    "description": "S\u00e1ndwich triple de miga con anan\u00e1 y jam\u00f3n.",
+    "price": 2180.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255062-1543259284.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "S\u00e1ndwich Triple de Crudo & Queso",
+    "description": "S\u00e1ndwich triple de miga de pan negro con jam\u00f3n crudo y queso.",
+    "price": 2640.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255066-1543259212.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "S\u00e1ndwich Triple de Crudo & R\u00facula",
+    "description": "S\u00e1ndwich triple de miga de pan negro con crudo, r\u00facula y queso parmesano.",
+    "price": 2640.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255065-1543259246.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "S\u00e1ndwich Triple Vegetariano",
+    "description": "S\u00e1ndwich triple de miga con queso, lechuga, tomate, zanahoria y huevo.",
+    "price": 2640.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255064-1543259262.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "S\u00e1ndwich Triple de Jam\u00f3n & Roquefort",
+    "description": "S\u00e1ndwich triple de miga con jam\u00f3n y roquefort.",
+    "price": 2180.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255058-1543259570.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "S\u00e1ndwich Triple de Aceituna & Queso",
+    "description": "S\u00e1ndwich triple de miga con aceituna y queso..",
+    "price": 1840.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/947f59fa-624a-4faa-adf6-73ba72dbe536-1635169886799.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "S\u00e1ndwich Triple de J & Q",
+    "description": "S\u00e1ndwich triple de miga con jam\u00f3n y queso.",
+    "price": 1840.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/8922f4f4-7774-44fd-946b-eb9e1bf2a15b-1634736140430.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "S\u00e1ndwich Triple de Caprese",
+    "description": "S\u00e1ndwich triple de miga con queso, tomate y albahaca.",
+    "price": 2640.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255061-1543259338.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "S\u00e1ndwich Triple de Jam\u00f3n & Tomate",
+    "description": "S\u00e1ndwich triple de miga con jam\u00f3n y tomate.",
+    "price": 2640.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255051-1543259584.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "S\u00e1ndwich Triple de Jam\u00f3n & Huevo",
+    "description": "S\u00e1ndwich triple de miga con jam\u00f3n y huevo.",
+    "price": 2180.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255053-1543259513.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "S\u00e1ndwich Triple de Queso & Huevo",
+    "description": "S\u00e1ndwich triple de miga con queso y huevo.",
+    "price": 2180.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255056-1543259418.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "S\u00e1ndwich Triple de Salame y Queso",
+    "description": "Sandwich de miga triple de salame y queso",
+    "price": 1840.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/36914f6c-8908-4038-83bb-835bbb2c93f6-1737735134362.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "S\u00e1ndwich Triple de Queso & Tomate",
+    "description": "S\u00e1ndwich triple de miga con queso y tomate.",
+    "price": 2640.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255054-1543259476.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Empanada de Carne Cortada a Cuchillo",
+    "description": "Empanada rellena de carne cortada a cuchillo por unidad. Para calentar.",
+    "price": 1950.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255018-1539196478.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Empanada de Pollo",
+    "description": "Empanada rellena de pollo por unidad. Para calentar.",
+    "price": 1950.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255019-1539196445.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Empanada de Queso & Cebolla",
+    "description": "Empanada rellena de queso y cebolla por unidad. Para calentar.",
+    "price": 1950.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255021-1539196385.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Empanada Caprese",
+    "description": "Empanada rellena de caprese por unidad. Para calentar.",
+    "price": 1950.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255022-1539196377.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Empanada de Humita",
+    "description": "Empanada rellena de humita por unidad. Para calentar.",
+    "price": 1950.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255023-1539196403.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Empanada de Carne",
+    "description": "Empanada rellena de carne por unidad. Para calentar.",
+    "price": 1950.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255017-1539196370.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Empanada de J & Q",
+    "description": "Empanada rellena de jam\u00f3n y queso. Para calentar.",
+    "price": 1950.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255020-1539196532.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Tarta de Jam\u00f3n & Puerro",
+    "description": "Tarta rellena de jam\u00f3n y puerro por unidad.",
+    "price": 4370.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255026-1543259662.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Tarta de Calabaza",
+    "description": "Tarta rellena de calabaza por unidad.",
+    "price": 4370.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255028-1543259673.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Tarta de Pollo",
+    "description": "Tarta rellena de pollo por unidad.",
+    "price": 4370.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255033-1543259754.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Tarta de Zapallito",
+    "description": "Tarta rellena de zapallito por unidad.",
+    "price": 4370.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255030-1539196903.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Docena de Facturas Surtidas",
+    "description": "12 facturas a elecci\u00f3n",
+    "price": 10350.0,
+    "options": [
+      {
+        "name": "Medialuna de Grasa",
+        "price": 0.0
+      },
+      {
+        "name": "Medialuna de Manteca",
+        "price": 0.0
+      },
+      {
+        "name": "Vigilantes",
+        "price": 0.0
+      },
+      {
+        "name": "Factura con Pastelera Y/o Membrillo",
+        "price": 0.0
+      },
+      {
+        "name": "Factura con Dulce de Leche",
+        "price": 0.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/1537842-1600956100493.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Tarta Queso & Cebolla",
+    "description": "Tarta rellena de queso y cebolla por unidad.",
+    "price": 4370.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255027-1539196937.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "1/2 Docena de Facturas Surtidas",
+    "description": "6 Facturas surtidas. No personalizable.",
+    "price": 5170.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255000-1539197545.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Tarta de Verdura y Huevo",
+    "description": "Tarta rellena de verdura y huevo por unidad.",
+    "price": 4370.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255032-1539196879.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Tarta de Jam\u00f3n & Queso",
+    "description": "Tarta rellena de jam\u00f3n y queso por unidad.",
+    "price": 4370.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255024-1539196805.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "1/2 Docena de Medialunas",
+    "description": "6 Medialunas de manteca o grasa a elecci\u00f3n.",
+    "price": 5170.0,
+    "options": [
+      {
+        "name": "Manteca",
+        "price": 0.0
+      },
+      {
+        "name": "Grasa",
+        "price": 0.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/254999-1539197553.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "S\u00e1ndwich de Salame & Queso",
+    "description": "S\u00e1ndwich de pan franc\u00e9s con salame y queso.",
+    "price": 4485.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255039-1543259044.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "S\u00e1ndwich de Crudo & Queso",
+    "description": "S\u00e1ndwich de pan franc\u00e9s con jam\u00f3n crudo y queso.",
+    "price": 5750.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255042-1543258954.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "S\u00e1ndwich de Mila con J&Q",
+    "description": "S\u00e1ndwich de pan franc\u00e9s con milanesa, jam\u00f3n y queso.",
+    "price": 6670.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255047-1543259031.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Docena de Medialunas",
+    "description": "12 Medialunas de manteca o grasa para compartir.",
+    "price": 10350.0,
+    "options": [
+      {
+        "name": "Manteca",
+        "price": 0.0
+      },
+      {
+        "name": "Grasa",
+        "price": 0.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/254998-1539195859.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Bud\u00edn de Lim\u00f3n",
+    "description": "Bud\u00edn de lim\u00f3n por unidad.",
+    "price": 6900.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255110-1543260965.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "S\u00e1ndwich de J&Q",
+    "description": "S\u00e1ndwich de pan franc\u00e9s con jam\u00f3n y queso.",
+    "price": 4485.0,
+    "options": [
+      {
+        "name": "Sin queso",
+        "price": 0.0
+      },
+      {
+        "name": "Sin jam\u00f3n",
+        "price": 0.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/255037-1543258884.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Bud\u00edn de Chocolate",
+    "description": "Bund\u00edn de chocolate por unidad.",
+    "price": 7470.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255112-1543260941.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Bud\u00edn Marmolado",
+    "description": "Bud\u00edn marmolado por unidad.",
+    "price": 6900.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255111-1543260953.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Bud\u00edn de Vainilla",
+    "description": "Bud\u00edn de vainilla por unidad.",
+    "price": 6900.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255109-1543260917.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Bud\u00edn con Frutas",
+    "description": "Bud\u00edn con frutas por unidad con frutas secas",
+    "price": 7470.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255113-1543260929.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Mini Alfajores Maicena 1/4",
+    "description": "Alfajores de maicena por 250gr.",
+    "price": 5400.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/449881-1718199898909.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Mini Alfajores Chocolate 1/4",
+    "description": "Un cuarto de alfajores de chocolate a elecci\u00f3n.",
+    "price": 5400.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/449882-1718200289741.jpg?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Palmeritas",
+    "description": "Palmeritas, 1/4 kg",
+    "price": 5400.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/bb80893e-ab56-4de1-85f7-6c3f151ab45a-1737466166000.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Pepitos",
+    "description": "Un cuarto de pepitos de membrillo o de chocolate.",
+    "price": 5400.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255118-1543260204.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "1/4 de Florentinos",
+    "description": "Pasta de almendras caramelizada, almendras trituradas y ba\u00f1o de chocolate especial",
+    "price": 6325.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/9c7ebd9f-9779-4496-8af5-37ce60474836-1737207638837.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Bollitos de Salvado 1/4 kg",
+    "description": "Pan de salvado",
+    "price": 1350.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/00d59ee5-9f89-4c29-8179-5f708e67e2a5-1737470760976.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "1/4 Bizcochitos de Grasa",
+    "description": "Un cuarto de bizcochitos de grasa",
+    "price": 3680.0,
+    "options": [
+      {
+        "name": "Cuernitos",
+        "price": 0.0
+      },
+      {
+        "name": "Bizcochitos",
+        "price": 0.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/255009-1543259890.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Bollitos de Salvado 1/2 kg",
+    "description": "Pan de salvado",
+    "price": 2700.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/b34297e2-0c9b-4bc6-be13-9284d3e94ddb-1737470916455.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Pan de Hamburguesas",
+    "description": "Pan para hamburguesas por unidad.",
+    "price": 720.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255006-1543259955.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Cremonita",
+    "description": "Cremonita por unidad.",
+    "price": 1435.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255008-1543259908.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Figacitas de Manteca 1/4 kg",
+    "description": "Figacitas de manteca",
+    "price": 1350.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/505cdd6f-a254-41fb-8d06-64a524e70e37-1737471003233.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Figacitas de Manteca 1/2 kg",
+    "description": "Figacitas de manteca",
+    "price": 2700.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/e0b0377c-fc30-4785-8697-574df0aac42d-1737471076362.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Pan Franc\u00e9s Mi\u00f1\u00f3n 1/2 kg",
+    "description": "Medio kilo de pan franc\u00e9s mi\u00f1\u00f3n",
+    "price": 2700.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/1172722-1591736254363.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Pebete",
+    "description": "Pebete por unidad.",
+    "price": 720.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255005-1543260107.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Cremona",
+    "description": "Cremona grande por unidad.",
+    "price": 2990.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/7439412f-6f75-435c-b5f6-d8084d299945-1737471216497.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Torta de Ricota Completa",
+    "description": "Torta con masa real rellena con ricota cubierta con masa real y az\u00facar impalpable. Vienen 8 porciones",
+    "price": 20120.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255082-1543260841.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Torta de Manzana Completa",
+    "description": "Torta con masa real rellena con manzana, cubierta con masa real glaseada. Vienen 8 porciones.",
+    "price": 20120.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/449855-1557501701.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Torta Frola de Membrillo Completa",
+    "description": "Torta frola de membrillo, con masa real rellena con mermelada de membrillo cubierta con rejilla de masa. Vienen 8 porciones",
+    "price": 17250.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255080-1539197850.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Torta Frola de Batata Completa",
+    "description": "Torta de frola de batata con masa real rellena con mermelada de batata con rejilla de masa. Vienen 8 porciones",
+    "price": 17250.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255081-1539197853.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Torta Niza Completa",
+    "description": "Torta niza, base de masa de brownie con dulce de leche cubierta con merengue italiano. Vienen 8 porciones",
+    "price": 25870.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/8ad77d90-e1c0-4153-91d5-b09f5730f935-1737471889905.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Torta de Frutillas Completa",
+    "description": "Torta frutillas con masa real rellena con pastelera decorada con frutillas. Vienen 8 porciones",
+    "price": 26450.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255093-1543260650.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Torta Rogel Completa",
+    "description": "Torta rogel, masa de hojaldre rellena con dulce de leche decorada con merengue italiano. Vienen 8 porciones",
+    "price": 25870.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255095-1543260567.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Torta Mangini Completa",
+    "description": "Torta de bizcochuelo de vainilla y chocolate, con dulce de leche, frutilla, ba\u00f1ada en chocolate, de 8 porciones.",
+    "price": 26450.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255096-1543260555.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Lemon Pie Completa",
+    "description": "Pie con masa rellena con crema de lim\u00f3n cubierta con merengue italiano. Vienen 8 porciones",
+    "price": 21850.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255090-1543260714.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Torta Aconcagua Completa",
+    "description": "Torta aconcagua, bizcochuelo de chocolate relleno con dulce de leche y mousse. Vienen 8 porciones",
+    "price": 25870.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255097-1543260544.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Torta Tipo Balcarce Completa",
+    "description": "Torta tipo balcarce, bizcochuelo de vainilla relleno con dulce de leche y crema con casta\u00f1as. Vienen 8 porciones",
+    "price": 25870.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/449865-1556548633.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Torta Tiramis\u00fa Completa",
+    "description": "Torta tiramis\u00fa semifr\u00edo con base de pionono, queso, caf\u00e9, de 8 porciones.",
+    "price": 27600.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255100-1543260685.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Pizza Fugazza",
+    "description": "Pre-pizza con cebolla, mozzarella, 8 porciones",
+    "price": 8970.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255016-1543261225.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Pizza Napolitana",
+    "description": "Pre-pizza con mozzarella, rodajas de tomate, provenzal, 8 porciones",
+    "price": 9200.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255014-1543261237.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Balcarce",
+    "description": "Torta tipo balcarce, bizcochuelo de vainilla, crema chantilly, merengue y dulce de leche.",
+    "price": 5750.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/14b32403-2bd8-46cc-90e0-e40664d22741-1737471570022.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Cheesecake Completa",
+    "description": "Cheesecake con base de queso blanco y crema con decoraci\u00f3n de frutilla, 8 porciones",
+    "price": 27600.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255099-1543260417.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Lemon Pie",
+    "description": "Lemon pie",
+    "price": 5170.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/da383008-5ac1-4b17-880e-8caeb5d79219-1737471360775.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Pizza Mozzarella",
+    "description": "Pre-pizza con mozzarella, or\u00e9gano, aceitunas, 8 porciones.",
+    "price": 8970.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255012-1543261265.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Frutilla con Pastelera",
+    "description": "Tarta de frutilla rellena con crema pastelera.",
+    "price": 5750.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/aff9ee14-0d75-4421-97d4-0379a2b4f1b7-1737471651376.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Mousse de Chocolate",
+    "description": "Porci\u00f3n de torta mousse de chocolate decorado con chocolate y frutilla.",
+    "price": 5520.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255105-1539197606.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Torta de Manzana",
+    "description": "Torta por porci\u00f3n de manzana, cubierta con masa real glaseada",
+    "price": 5170.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255104-1539197719.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Torta de Ricota",
+    "description": "Porci\u00f3n torta de ricota con masa real rellena y cubierta con masa real y az\u00facar impalpable.",
+    "price": 5170.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255106-1539197598.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Torta Niza",
+    "description": "Porci\u00f3n torta niza con base de brownie con dulce de leche y merengue italiano.",
+    "price": 5750.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255101-1555013672.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Torta Tiramis\u00fa",
+    "description": "Tiramis\u00fa con base de pionono con queso al caf\u00e9 por porci\u00f3n",
+    "price": 6900.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/255107-1539197593.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/112408-mangini"
+  },
+  {
+    "name": "Arrolladitos X 3",
+    "description": "Empanaditas chinas x 3 unidades.",
+    "price": 3700.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/65392635-37cf-4861-9baf-4f98ecb54b14-1677121336579.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/209506-salad-sushi"
+  },
+  {
+    "name": "Ensalada Baby Pollo Teriyaki",
+    "description": "Ensalada baby con arroz de sushi, pollo teriyaki, palta y phila.",
+    "price": 6500.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/03740c8b-9a23-4874-b544-f6937e08c51a-1677122083570.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/209506-salad-sushi"
+  },
+  {
+    "name": "Baby Pollo Crispy",
+    "description": "Ensalada baby con arroz de sushi, pollo crispy, queso phila y palta, con lluvia de sesamo y verdeo.",
+    "price": 5700.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/bf6a0301-5dbe-44b0-9b56-89b52fcdd6b8-1689439325546.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/209506-salad-sushi"
+  },
+  {
+    "name": "Baby Pollo Crispy, Phila y Mango",
+    "description": "Ensalada baby con arroz de sushi, pollo crispy, queso phila y mango, con lluvia de sesamo .",
+    "price": 5000.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/2a92be0c-e6c6-4814-96c9-b2f203fce42f-1710619339458.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/209506-salad-sushi"
+  },
+  {
+    "name": "Ensalada Baby Kanikama",
+    "description": "Ensalada baby con arroz de sushi, kanikama palta y phila.",
+    "price": 6000.0,
+    "options": [
+      {
+        "name": "Sin Salsa",
+        "price": 0.0
+      },
+      {
+        "name": "Salsa de Soja",
+        "price": 0.0
+      },
+      {
+        "name": "Buenos Aires",
+        "price": 0.0
+      },
+      {
+        "name": "Teriyaki",
+        "price": 0.0
+      },
+      {
+        "name": "Maracuya",
+        "price": 0.0
+      },
+      {
+        "name": "Mostaza Dulce",
+        "price": 0.0
+      },
+      {
+        "name": "Soja Picante",
+        "price": 0.0
+      },
+      {
+        "name": "con Tenedor",
+        "price": 0.0
+      },
+      {
+        "name": "Sin Tenedor",
+        "price": 0.0
+      },
+      {
+        "name": "Sin Palitos",
+        "price": 0.0
+      },
+      {
+        "name": "con Palitos",
+        "price": 0.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/05972a7b-bdc9-4a0e-9f2d-dfdceda051dd-1677121859225.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/209506-salad-sushi"
+  },
+  {
+    "name": "Ensalada Baby Mango",
+    "description": "Ensalada baby con arroz de sushi, mango, phila y palta.",
+    "price": 4700.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/e32df46f-0368-4ab7-9620-08078c89e457-1677122189942.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/209506-salad-sushi"
+  },
+  {
+    "name": "Ensalada Baby Pollo Crispy",
+    "description": "Ensalada baby con arroz de sushi, pollo crispy, palta y phila.",
+    "price": 4600.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/c60726c0-76a3-4894-8f05-a4d0982bf7c8-1677121989482.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/209506-salad-sushi"
+  },
+  {
+    "name": "Baby Veggie",
+    "description": "Ensalada baby veggie con arroz de sushi, zanahoria, pepino, cebolla morada, mango y queso phila, con lluvia de s\u00e9samo.",
+    "price": 4450.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/1727ff0a-b2a7-40ad-ac82-3b7223734218-1710619394716.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/209506-salad-sushi"
+  },
+  {
+    "name": "Poke Veggie 500Grs",
+    "description": "Poke veggie arroz de sushi, zanahoria, zucchini, palta, cebolla morada, mango y verdeo.",
+    "price": 5680.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/10c73126-457c-464a-9a1c-c086b80494a1-1677122513500.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/209506-salad-sushi"
+  },
+  {
+    "name": "Poke Ligero 500Grs",
+    "description": "Poke con garbanzos, lentejas, zanahoria rallada, palta, queso crema, cebolla de verdeo y semillas de s\u00e9samo. .",
+    "price": 5460.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/3898cf76-3ef1-4f40-a112-23a2ab4e0792-1677442805400.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/209506-salad-sushi"
+  },
+  {
+    "name": "Bowl de Pollo Cripy",
+    "description": "Bowl de pollo crispy con base para elegir, y 5 vegetales a tu gusto.",
+    "price": 5400.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/ab96e16a-30f5-48ce-b21f-dff3e6fe950f-1704994722655.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/209506-salad-sushi"
+  },
+  {
+    "name": "Salsa de Soja",
+    "description": "Salsa de soja.",
+    "price": 600.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/426687f3-b416-4b04-837e-917fafb720a8-1677122809830.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/209506-salad-sushi"
+  },
+  {
+    "name": "Salsa Agridulce",
+    "description": "Salsa agridulce.",
+    "price": 600.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/4c0c0455-8336-4ba2-9598-544a2a173a70-1677122867838.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/209506-salad-sushi"
+  },
+  {
+    "name": "Chocotorta",
+    "description": "Chocotorta.",
+    "price": 7500.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/c03927b3-7061-4dec-b672-a9e9cd5d1feb-1696974735724.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/209506-salad-sushi"
+  },
+  {
+    "name": "Lemon Pie",
+    "description": "Lemon pie base de bizcocho de vainilla, deliciosa crema de lim\u00f3n y lluvia de chantilly .",
+    "price": 7500.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/eb6d2898-fd93-4fd4-b199-760110acd6f6-1706391705397.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/209506-salad-sushi"
+  },
+  {
+    "name": "Angus Burger",
+    "description": "Burger simple de 100 gr smash - cheddar - tomate - lechuga - cebolla morada - salsa angus.(el precio incluye papas fritas)",
+    "price": 14100.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/tmp332602948892535093907216590.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/217348-angus-brother"
+  },
+  {
+    "name": "Burger Del Mes",
+    "description": "Pan, doble medall\u00f3n de carne smash, queso cheddar picante, panceta ahumada, lechuga, tomate, salsa picante.",
+    "price": 17900.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/8574e47b-1d63-4c68-8ab2-640c7c6c5365-1740857438312.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/217348-angus-brother"
+  },
+  {
+    "name": "Cuarto de Libra",
+    "description": "Burger simple de 100 gr smash - pan de sesamo - cheddar - salsa doble cuarto.(el precio incluye papas fritas)",
+    "price": 14100.0,
+    "options": [
+      {
+        "name": ".A.simple",
+        "price": 0.0
+      },
+      {
+        "name": "Not co",
+        "price": 0.0
+      },
+      {
+        "name": ".Doble",
+        "price": 3100.0
+      },
+      {
+        "name": ".Triple",
+        "price": 4800.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/tmp3326028212018686293465428158.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/217348-angus-brother"
+  },
+  {
+    "name": "Yankee",
+    "description": "Burger simple de 100 gr smash - panceta - cheddar - barbacoa.(el precio incluye papas fritas)",
+    "price": 14100.0,
+    "options": [
+      {
+        "name": ".A.simple",
+        "price": 0.0
+      },
+      {
+        "name": "Not co",
         "price": 0.0
       },
       {
         "name": "Doble",
-        "price": 6300.0
+        "price": 3100.0
       },
       {
         "name": "Triple",
-        "price": 11400.0
-      },
-      {
-        "name": "Medall\u00f3n veggie doble",
-        "price": 4200.0
-      },
-      {
-        "name": "Coca-cola sin azucar 500ml.",
-        "price": 3400.0
-      },
-      {
-        "name": "Chocotorta",
-        "price": 9000.0
-      },
-      {
-        "name": "Muzzarelitas",
-        "price": 15500.0
-      },
-      {
-        "name": "Coca-cola sabor original 500ml",
-        "price": 3400.0
-      },
-      {
-        "name": "Sin huevo",
-        "price": 0.0
-      },
-      {
-        "name": "Sin cebolla a la plancha",
-        "price": 0.0
-      },
-      {
-        "name": "Sin fontina",
-        "price": 0.0
-      },
-      {
-        "name": "Extra queso en hamburguesa",
-        "price": 1800.0
-      },
-      {
-        "name": "Panceta en papas",
-        "price": 3200.0
-      },
-      {
-        "name": "Extra panceta en hamburguesa",
-        "price": 3100.0
-      },
-      {
-        "name": "Extra huevo",
-        "price": 1200.0
-      },
-      {
-        "name": "Cheddar en papas",
-        "price": 3100.0
+        "price": 4800.0
       }
     ],
-    "image_url": "https://images.rappi.com.ar/products/tmpImg9cd7ef89-e1ea-4544-81fb-9199e62bd65d.png?e=webp&d=511x511&q=85",
-    "store_url": "https://www.rappi.com.ar/restaurantes/189247-arredondo"
+    "image_url": "https://images.rappi.com.ar/products/tmp3326028818112113487955293259.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/217348-angus-brother"
+  },
+  {
+    "name": "Burger Del Mes",
+    "description": "Pan, doble medall\u00f3n de carne smash, queso cheddar picante, panceta ahumada, lechuga, tomate, salsa picante.",
+    "price": 17900.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/8574e47b-1d63-4c68-8ab2-640c7c6c5365-1740857438312.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/217348-angus-brother"
+  },
+  {
+    "name": "Parmesano",
+    "description": "Burger simple de 100 gr smash - pan de parmesano - cheddar - panceta.(el precio incluye papas fritas)",
+    "price": 14100.0,
+    "options": [
+      {
+        "name": ".A.simple",
+        "price": 0.0
+      },
+      {
+        "name": "Not co",
+        "price": 0.0
+      },
+      {
+        "name": ".Doble",
+        "price": 3100.0
+      },
+      {
+        "name": ".Triple",
+        "price": 4800.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/tmp3326030013819588419872754550.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/217348-angus-brother"
+  },
+  {
+    "name": "Oklahoma",
+    "description": "Burger simple de 100 gr smash con cebolla - pepinos - mostaza - cheddar(el precio incluye papas fritas)",
+    "price": 14100.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/tmp3326031212116288780150718403.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/217348-angus-brother"
+  },
+  {
+    "name": "Cheeseburger",
+    "description": "Burger simple de 100 gr smash - cheddar -(el precio incluye papas fritas)",
+    "price": 9040.0,
+    "options": [
+      {
+        "name": ".A.simple",
+        "price": 0.0
+      },
+      {
+        "name": "Not co",
+        "price": 0.0
+      },
+      {
+        "name": ".Doble",
+        "price": 3100.0
+      },
+      {
+        "name": ".Triple",
+        "price": 4800.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/tmp332603061545577815508315909.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/217348-angus-brother"
+  },
+  {
+    "name": "Ensalada Caesar",
+    "description": "Lechuga francesa - queso parmesano rallado - pollo rebozado - croutones - panceta trozada - salsa caesar",
+    "price": 14100.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/tmp3326035613542482658667334332.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/217348-angus-brother"
+  },
+  {
+    "name": "Ribs de Cerdo",
+    "description": "Ribs de cerdo braseadas en barbacoa en cocci\u00f3n de 4 hs.(el precio incluye papas fritas)",
+    "price": 19950.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/tmp332603185196977608780662729.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/217348-angus-brother"
+  },
+  {
+    "name": "Crispy",
+    "description": "Burger simple de 100 gr smash - cheddar - panceta - cebolla crispy - ketchup(el precio incluye papas fritas)",
+    "price": 14100.0,
+    "options": [
+      {
+        "name": ".A.simple",
+        "price": 0.0
+      },
+      {
+        "name": "Not co",
+        "price": 0.0
+      },
+      {
+        "name": "Doble",
+        "price": 3100.0
+      },
+      {
+        "name": "Doble",
+        "price": 2730.0
+      },
+      {
+        "name": "Triple",
+        "price": 4800.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/tmp332603328109659656470402347.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/217348-angus-brother"
+  },
+  {
+    "name": "Clasica",
+    "description": "Burger simple de 100 gr smash - queso tybo - lechuga - tomate - alioli.(el precio incluye papas fritas)",
+    "price": 14100.0,
+    "options": [
+      {
+        "name": ".A.simple",
+        "price": 0.0
+      },
+      {
+        "name": "Not co",
+        "price": 0.0
+      },
+      {
+        "name": ".Doble",
+        "price": 3100.0
+      },
+      {
+        "name": ".Triple",
+        "price": 4800.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/tmp332603204119592852598796276.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/217348-angus-brother"
+  },
+  {
+    "name": "Agua con Gas",
+    "description": "500Cm3",
+    "price": 2890.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/tmp3326033812763803425002777587.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/217348-angus-brother"
+  },
+  {
+    "name": "Notco",
+    "description": "Medallon de 120 gr not co - cheddar - cebolla crispy - alioli.(el precio incluye papas fritas)",
+    "price": 14100.0,
+    "options": [
+      {
+        "name": ".A.simple",
+        "price": 0.0
+      },
+      {
+        "name": "Not co",
+        "price": 0.0
+      },
+      {
+        "name": "Doble",
+        "price": 3100.0
+      },
+      {
+        "name": "Triple",
+        "price": 4800.0
+      }
+    ],
+    "image_url": "https://images.rappi.com.ar/products/tmp332603264234653448330000227.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/217348-angus-brother"
+  },
+  {
+    "name": "Coca Cola",
+    "description": "Lata de 350ml",
+    "price": 4000.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/tmp332603415425176480040256175.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/217348-angus-brother"
+  },
+  {
+    "name": "Paletas",
+    "description": "Paletas artesanales pot.",
+    "price": 6550.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/tmp332603497152473079423722773.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/217348-angus-brother"
+  },
+  {
+    "name": "Stella Artois 473 ml",
+    "description": "Cerveza",
+    "price": 5200.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/57bf7c6e-d4bc-42f4-a1a6-b3f7c660f987-1726514373162.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/217348-angus-brother"
+  },
+  {
+    "name": "Agua Sin Gas",
+    "description": "500 Ml.",
+    "price": 2890.0,
+    "options": [],
+    "image_url": "https://images.rappi.com.ar/products/tmp332603396945919114977715411.png?e=webp&d=511x511&q=85",
+    "store_url": "https://www.rappi.com.ar/restaurantes/217348-angus-brother"
   }
 ]

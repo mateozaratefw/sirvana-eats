@@ -231,10 +231,26 @@ async def process_category(
             'span[data-testid="store-delivery-cost"]'
         ).text_content()
 
+        stars = "Not available"
+        try:
+            typography_spans = restaurant.locator('span[data-testid="typography"]')
+            span_count = await typography_spans.count()
+
+            for i in range(span_count):
+                span = typography_spans.nth(i)
+                text = await span.text_content()
+                if text and text.replace(".", "", 1).isdigit():
+                    stars = text
+                    break
+
+        except Exception as e:
+            print(f"Error getting stars for {name}: {e}")
+
         restaurant_info = {
             "name": name,
             "delivery_time": delivery_time,
             "delivery_price": delivery_price,
+            "stars": stars,
             "url": "https://www.rappi.com.ar" + link,
             "category_index": category_index + 1,
         }
@@ -259,9 +275,8 @@ async def process_category(
         except Exception as e:
             print(f"Error saving restaurant data: {e}")
 
-        print(restaurant_info)
-
     await page.close()
+
 
 COOKIE_TABLE = """AEC	AVcja2eAboA6_-EMuX_qqINtwMDFI6sp9q9E7SH6QTg4KOMhF06Ec0mxcVQ	.google.com	/	2025-08-28T22:59:56.694Z	62	✓	✓	Lax			Medium	
 AF_SYNC	1741365704323	.rappi.com.ar	/	2025-03-14T16:41:44.000Z	20						Medium	
@@ -341,24 +356,6 @@ rappi.data	eyJpZCI6NDk4NzQ2MjE0LCJmaXJzdE5hbWUiOiJNYXRlbyIsImxhc3ROYW1lIjoiWmFyY
 rappi.id	eyJhY2Nlc3NfdG9rZW4iOiJmdC5nQUFBQUFCbnpIbTdkTnZCazFKRUVJbTYwTHo5LXZZUzhwSHAwZmlVTlFHa0duX3c1dVJ2Tk4wNzcyV3hwVjA4OGhqcWlGMkllYUtObVNvZ2x4aWN0bUhMOUIwWHp3LS0tdjdKRW44RFRQZnV4eVZsUy02MWh3MjhBLVhmTDlmemJSQjFXaUlfUkRYZGh3cGFDZHBUbTN0UDJsTFF6ZUNScG1Yb015bU84THEycHVYZGw3WXAwUGhOQW1TSjBIVmFJSWlxVjlTUlZTNzdRN2JlazZ6VkprMWdpV0NoOXRXSGJvYXIyQ1hNMWY3ZDNNbzIxemFXOEpOQUxBZUo0M2Ixc20yd2RvSXFlbXZtWUdBa0dCdXVWb0RTTDFPalV0ai1HalRrejk4SmEyaloxTDJmNmF2bXZmN2p0bC1hYUY3WHNESDhXckV2cjNiclNpZlFlVUUtQWRlZE1LekVNaTAwZ2VnNEJtQVVEelQ3bmZSdk12enBldG1HcFpGS3p3TFVYTWZNb1pjWEdveTh1YlgybmhxZk93SUFrMmpMUk9jZS13PT0iLCJ0b2tlbl90eXBlIjoiQmVhcmVyIiwiZXhwaXJlc19pbiI6NjA0ODAwLCJyZWZyZXNoX3Rva2VuIjoiZnQuZ0FBQUFBQm56SG03b0x1TGR3MHJzcTFMVEIxZWRxXzdGOXNXOHBKcXFGMVFtOC0tbG03bTkwWTcxYy1HdVpGSGJBcXdtUDFnME0tZDBwWFFXOG5Ga0Y0eldMSk1RTXJTQ1RXeFNwTHF0Z0Y5R24ySVl3WUtDWHl1eTBPLVkxc1d2bUwyNURoN25KRDhRZmtZNjdBdm9LNjM0c1ZHX0xRTXJOY3ctZ1NVQThLME11eFRPc00xZ2RTaEdrNnpPLWFkZ1diSG5UVjdZSmEtcDlnc3FoSjJnT25uQ21lYWZQMDExYUFBTGkzVk50eFlwVURQY01raXJ…	.rappi.com.ar	/	2025-06-07T23:09:25.485Z	1272			Lax			Medium	
 rappi.type	1	.rappi.com.ar	/	2025-06-07T23:09:25.485Z	11			Lax			Medium	
 rappi_refresh_token	ZnQuZ0FBQUFBQm56SG03b0x1TGR3MHJzcTFMVEIxZWRxXzdGOXNXOHBKcXFGMVFtOC0tbG03bTkwWTcxYy1HdVpGSGJBcXdtUDFnME0tZDBwWFFXOG5Ga0Y0eldMSk1RTXJTQ1RXeFNwTHF0Z0Y5R24ySVl3WUtDWHl1eTBPLVkxc1d2bUwyNURoN25KRDhRZmtZNjdBdm9LNjM0c1ZHX0xRTXJOY3ctZ1NVQThLME11eFRPc00xZ2RTaEdrNnpPLWFkZ1diSG5UVjdZSmEtcDlnc3FoSjJnT25uQ21lYWZQMDExYUFBTGkzVk50eFlwVURQY01raXJaX2F0bmFHQkdKZDkza1dsa3o5NFdkVFQyX3dXb0l6aGVNT1M4cXhwVmcwTVFtdkZOUzlRcjkyVWNZb3E3cm5reUpnWUcxYlphaDhzUnhEeWZZMDNDSGxpSlZnd2xqTVljVDdHVjFnRTlQcFVFRFVWeW5xcmNvMDNRYlktbXFET1p2VFA0RlJyYlB6M3puTVdJdDhXOWQ4R1ZXNm9NTHk5LXhpRW9Ed2lkRlRNQT09	.rappi.com.ar	/	2025-06-07T23:09:25.485Z	583			Lax			Medium	
-s_v_web_id	verify_m5zchvu9_zxWA8Fnd_Kutw_42eB_AowA_Wcjc44oRzOWV	.tiktok.com	/	Session	62		✓	None			Medium	
-sessionid	12f9e0f31a826485863a732fc769ec4f	.tiktok.com	/	2025-07-15T13:09:17.106Z	41	✓	✓				Medium	
-sessionid_ss	12f9e0f31a826485863a732fc769ec4f	.tiktok.com	/	2025-07-15T13:09:17.106Z	44	✓	✓	None			Medium	
-sid_guard	12f9e0f31a826485863a732fc769ec4f%7C1737032962%7C15551995%7CTue%2C+15-Jul-2025+13%3A09%3A17+GMT	.tiktok.com	/	2026-01-11T13:09:22.106Z	103	✓	✓				Medium	
-sid_tt	12f9e0f31a826485863a732fc769ec4f	.tiktok.com	/	2025-07-15T13:09:17.106Z	38	✓	✓				Medium	
-sid_ucp_v1	1.0.0-KDNjODIxOGFiYzc5YmIxMGNhYmVlNTA1YjJhYzA2MTE2MDM1NzQ3YmIKGgiAgKiwoNmA1AMQgoqkvAYYsws4AUDqB0gEEAMaAm15IiAxMmY5ZTBmMzFhODI2NDg1ODYzYTczMmZjNzY5ZWM0Zg	.tiktok.com	/	2025-07-15T13:09:17.106Z	162	✓	✓				Medium	
-ssid_ucp_v1	1.0.0-KDNjODIxOGFiYzc5YmIxMGNhYmVlNTA1YjJhYzA2MTE2MDM1NzQ3YmIKGgiAgKiwoNmA1AMQgoqkvAYYsws4AUDqB0gEEAMaAm15IiAxMmY5ZTBmMzFhODI2NDg1ODYzYTczMmZjNzY5ZWM0Zg	.tiktok.com	/	2025-07-15T13:09:17.106Z	163	✓	✓	None			Medium	
-store-country-code	ar	.tiktok.com	/	2025-07-15T13:09:17.809Z	20	✓					Medium	
-store-country-code-src	uid	.tiktok.com	/	2025-07-15T13:09:17.809Z	25	✓					Medium	
-store-idc	maliva	.tiktok.com	/	2025-07-15T13:09:17.808Z	15	✓					Medium	
-tt-target-idc	useast1a	.tiktok.com	/	2025-07-15T13:09:17.809Z	21	✓					Medium	
-tt-target-idc-sign	eFXjNZyxKRnIHimMwvvzxshH2g243UncGJWhyAurx9uyMLzpJ1IE49E7GeytB-JI-9dV0EogD3DHalWPTSm6IkAAFtglFIQWtuDr28LThdMyzqvnIS0BC0ph15soOl0D-Mgig6KFm_62tABfAmmJzrEOnwiSRM28K4RI5buj1mXi_0wRDXw2YOuocq2A7guu-ZyjIEcVaEKTCzInHDV3M2fFgT-jb9jvR1VvANc6BG4CkJ_lxBpbAZCBVYVZrLdZbifIm20Dgk11LjuM10n_klXUxkABa-59qhqxp6FpSXcpL6QdHZD4tfBmsAOCHKI87sl2WeMfVjPp0fpvwmgzG6cwfoNi0gXE05hhczzwWcmCEp0gWi6sIFIeKVyhbEXzUvY5bPBdUS9D3jxEJ9lkOGYBFDc1zEZ4EShlchQ5T-NRlL5sStFklnOyNs7Pt_sQ7rQGgHrEf8kcBqROKIx-XuWDiPagQRJZ4yqjqt_UTmMLxgIxDOIZs3vd4cGuBqXO	.tiktok.com	/	2026-01-16T13:09:18.318Z	530	✓					Medium	
-tt_chain_token	VOGD6G6ZjpKSEbwh/VjojA==	.tiktok.com	/	2025-08-29T03:27:02.965Z	38	✓	✓				Medium	
-tt_csrf_token	BmzNo1Vn-LRW2Y0f4aBgch1JjywW9wATXPf0	.tiktok.com	/	Session	49	✓	✓	Lax			Medium	
-ttwid	1%7Corht3igrysj9SwFiqLNY1sbh3LUdRn1ulLgfRtreo4Y%7C1740886024%7Ccc9504470d884645348a771d4185d5a055fe9903058ed03bf3a4f8d9a1c3559d	.tiktok.com	/	2026-03-02T03:27:04.774Z	132	✓	✓	None			Medium	
-uid_tt	f28aa41f431c45a5bd9d6acd64d421c9e39ea45498aa12150c7bb3ba3e651038	.tiktok.com	/	2025-07-15T13:09:17.106Z	70	✓	✓				Medium	
-uid_tt_ss	f28aa41f431c45a5bd9d6acd64d421c9e39ea45498aa12150c7bb3ba3e651038	.tiktok.com	/	2025-07-15T13:09:17.106Z	73	✓	✓	None			Medium	
-wallpaper	click	www.google.com	/	Session	14						Medium	
 """
 
 
