@@ -251,6 +251,17 @@ def main():
                             if link in processed_urls:
                                 continue
 
+                            # Check if restaurant has "abre" text anywhere within the store-item
+                            store_item_texts = restaurant.locator(
+                                "*"
+                            ).all_text_contents()
+                            has_abre = any(
+                                "abre" in text.lower() for text in store_item_texts
+                            )
+
+                            if has_abre:
+                                continue
+
                             processed_urls.add(link)
 
                             name = restaurant.locator("h3").text_content()
