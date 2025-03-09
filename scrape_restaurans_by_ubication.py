@@ -1,5 +1,5 @@
 from playwright.sync_api import sync_playwright
-import datetime
+from datetime import datetime
 import json
 
 
@@ -14,7 +14,7 @@ def parse_expires(expires_str):
     # Remove trailing 'Z' and parse
     # e.g. "2025-08-28T22:59:56.694Z" -> "2025-08-28T22:59:56.694+00:00"
     iso_str = expires_str.replace("Z", "+00:00")
-    dt = datetime.datetime.fromisoformat(iso_str)
+    dt = datetime.fromisoformat(iso_str)
     return int(dt.timestamp())
 
 
@@ -213,30 +213,28 @@ def main():
 
         page.wait_for_load_state("networkidle")
 
-        # Create or open the JSON file in append mode
-        with open("restaurants_by_category.json", "w", encoding="utf-8") as f:
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = f"restaurants_by_category_{timestamp}.json"
+        
+        with open(filename, "w", encoding="utf-8") as f:
             f.write("[\n")
             first_item = True
 
-            # Get all category buttons
             category_buttons = page.locator('button[data-qa="category-item"]')
             num_categories = category_buttons.count()
 
             for i in range(num_categories):
                 try:
-                    # Get the button again to avoid stale references
                     category_buttons = page.locator('button[data-qa="category-item"]')
                     current_button = category_buttons.nth(i)
 
-                    # Get category name before clicking
                     category_name = current_button.locator(
                         ".chakra-text"
                     ).text_content()
                     print(f"\nProcessing category: {category_name}")
 
-                    # Click the category button
                     current_button.click()
-                    page.wait_for_timeout(2000)  # Wait for 2 seconds
+                    page.wait_for_timeout(2000)
 
                     while True:
                         restaurants = page.locator(
@@ -251,7 +249,6 @@ def main():
                             if link in processed_urls:
                                 continue
 
-                            # Check if restaurant has "abre" text anywhere within the store-item
                             store_item_texts = restaurant.locator(
                                 "*"
                             ).all_text_contents()
@@ -311,7 +308,6 @@ def main():
 
             # Write the closing bracket
             f.write("\n]")
-
         print("\nProcess completed. Total unique restaurants:", len(processed_urls))
         print("Data saved in restaurants_by_category.json")
         input("Press Enter to close...")

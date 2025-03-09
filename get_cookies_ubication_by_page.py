@@ -195,13 +195,10 @@ async def process_category(
     """
     page = await context.new_page()
     await page.goto("https://www.rappi.com.ar/restaurantes")
-    # await page.wait_for_load_state("networkidle")
 
-    # Get all category buttons
     buttons = page.locator('button[data-qa="category-item"]')
     current_button = buttons.nth(category_index)
 
-    # Click the button
     await current_button.click()
     await asyncio.sleep(2)
 
@@ -256,7 +253,8 @@ async def process_category(
         }
 
         # Append to JSON file with file locking for concurrent safety
-        filename = "restaurants.json"
+        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        filename = f"restaurants_{timestamp}.json"
         try:
             if not os.path.exists(filename):
                 with open(filename, "w") as f:

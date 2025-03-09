@@ -1,19 +1,14 @@
-[project]
+[tool.poetry]
 name = "sirvana-eats"
 version = "0.1.0"
-description = ""
-authors = [
-    {name = "mateo zarate",email = "mateozaratefw@gmail.com"}
-]
-readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "playwright (>=1.50.0,<2.0.0)",
-    "requests (>=2.32.3,<3.0.0)",
-    "beautifulsoup4 (>=4.13.3,<5.0.0)"
-]
+package-mode = false
+description = "Script to update product availability in Sirvana database"
+authors = ["Sirvana Team"]
 
+[tool.poetry.dependencies]
+python = "^3.8"
+psycopg2-binary = "^2.9.9"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"

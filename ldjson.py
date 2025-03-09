@@ -194,7 +194,6 @@ def process_restaurant_chunk(chunk: List[Dict], process_id: int) -> Tuple[str, s
     with open(error_file, "w", encoding="utf-8") as f:
         json.dump(errors, f, ensure_ascii=False, indent=4)
 
-    print(output_file)
     return output_file, error_file
 
 
@@ -246,14 +245,11 @@ if __name__ == "__main__":
     muerte_dir = "muerte"
     os.makedirs(muerte_dir, exist_ok=True)
 
-    # Read restaurants from JSON file
-    with open("restaurants.json", "r", encoding="utf-8") as f:
+    with open("restaurants_by_category_20250309_092602.json", "r", encoding="utf-8") as f:
         restaurants = json.load(f)
 
-    # Determine number of processes (use CPU count - 1 to leave one core free)
     num_processes = max(1, multiprocessing.cpu_count() - 1)
 
-    # Split restaurants into chunks
     chunk_size = len(restaurants) // num_processes + (
         1 if len(restaurants) % num_processes else 0
     )
@@ -261,17 +257,13 @@ if __name__ == "__main__":
         restaurants[i : i + chunk_size] for i in range(0, len(restaurants), chunk_size)
     ]
 
-    # Create process pool and process chunks
     with multiprocessing.Pool(num_processes) as pool:
-        # Process each chunk and get temporary file names
         results = pool.starmap(
             process_restaurant_chunk, [(chunk, i) for i, chunk in enumerate(chunks)]
         )
 
-        # Separate temp files and error files
         temp_files, error_files = zip(*results)
 
-    # Combine all temporary files into final output in muerte directory
     final_output = os.path.join(muerte_dir, "muerte_items.json")
     error_output = os.path.join(muerte_dir, "muerte_errors.json")
     combine_temp_files(temp_files, error_files, final_output, error_output)
